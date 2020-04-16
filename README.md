@@ -10,11 +10,14 @@ These notebooks highlight the processes taken by the *Car Park Where* team with 
 ### Data Collection
 Firstly, we obtain the live data from the Data.gov.sg and URA websites, thereafter collect the data on a daily basis. The live data is collected at intervals of seconds. The data is then stored in our server accessible by a URL.
 
-## Data Extraction
+### Data Extraction
 Next, data is extracted with Python notebook using the *urllib* module. After the extraction, we use the pandas module to process into a structured data frame. More details are elaborated in the notebooks below.
 
-## Cleaning and Pre-processing
+### Cleaning and Pre-processing
+After obtaining the data, it has to go through cleaning to remove unnecessary columns. In addition, we obtain some features from the original data. Laslty, attributes in string data type are encoded so that they can be accepted into the model for training.
 
+### Training with Decision Tree Regressor
+When the data is prepared, it is trained with Scikit-learn (sklearn) Decision Tree Regressor to generate the numerical output which is the predicted carpark lots. When the model is generated, it is saved for future prediction of the carpark availability.
 
 ## About Car Park Where
 This is an app that provides live carpark availability in Singapore, and also makes prediction of carpark availability so that users can make informed decisions on parking options.
