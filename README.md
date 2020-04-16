@@ -21,7 +21,7 @@ When the data is prepared, it is trained with Scikit-learn (sklearn) Decision Tr
 
 ## About Car Park Where
 This is an app that provides live carpark availability in Singapore, and also makes prediction of carpark availability so that users can make informed decisions on parking options.
-The output of the carpark lot prediction is made from the machine learning model trained with the scripts in this directory. You may refer to this (link)[https://github.com/Teo-KJ/Car-Park-Where] for more details of Car Park Where.
+The output of the carpark lot prediction is made from the machine learning model trained with the scripts in this directory. You may refer to this [link](https://github.com/Teo-KJ/Car-Park-Where) for more details of Car Park Where.
 
 ## About the notebooks and data
 
