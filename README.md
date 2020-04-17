@@ -42,5 +42,3 @@ As the data gets increasingly large, we use this notebook to read the data from 
 
 ### Visualisation of Carpark Availability and Carpark Details
 This notebook is an attempt to visualise the carpark details data taken from both HDB and URA. In addition, we visualised the average carpark availability for selected carparks based on a single week and on a single day. This objective of visualisation is to show how it can be visualised when implemented in the *Car Park Where* app.
-
-DT_model.sav
